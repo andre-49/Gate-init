@@ -49,37 +49,37 @@
                   <p class="flex gap-10 items-center"><span>Topics</span> <span class="nf nf-md-menu_down"></span></p>
                   <h1 class="sm:hidden">News</h1>
               </div>
-              <div class="md:grid grid-cols-2">
-                  <div class="border-solid border-b-[1px] border-gray-200 text-center">
-                      <img src="./imgs/news1.jpeg" alt="news-1" class="aspect-video">
+              <div class="lg:grid grid-cols-2 my-5">
+                  <div class="border-solid border-b-[1px] border-gray-200 text-center ">
+                      <img src="./imgs/news1.jpeg" alt="news-1" class="h-[250px] w-full object-cover">
                       <h3 class="uppercase text-sm">Health sciences</h3>
                       <p class=""><a href="#" class="no-underline hover:underline">Catherine and Anthony Clifton make transformational 
                           gift to accelerate patient care, research, and education at Penn Medicine</a></p>
                       <!-- <span class="relative text-xl font-bold after:content-[''] after:block after:w-12  -->
                       <!-- after:h-1 after:bg-blue-500 after:mt-1 after:mx-auto"> </span> -->
                   </div>
-                  <div class="md:grid grid-cols-2 grid-rows-2">
+                  <div class="md:grid grid-cols-2 grid-rows-2 gap-10">
                       <div class="text-center mb-4">
-                          <img src="./imgs/news2.jpeg" alt="news-2" class="hidden md:block">
+                          <img src="./imgs/news2.jpeg" alt="news-2" class="hidden lg:block">
                           <h3 class="uppercase text-sm">Health sciences</h3>
                           <p><a href="#" class="no-underline hover:underline">Jonathan A. Epstein named head of Perelman School of Medicine 
                               and Penn Health System</a></p>
                           <div class="w-[350px] h-[1px] bg-gray-300 mx-auto mt-1"></div>
                       </div>
                       <div class="text-center mb-4">
-                          <img src="imgs/news3.jpeg" alt="news-3" class="hidden md:block">
+                          <img src="imgs/news3.jpeg" alt="news-3" class="hidden lg:block">
                           <h3 class="uppercase text-sm">Arts, humaties, & social sciences</h3>
                           <p><a href="#" class="no-underline hover:underline">Penn prepares to mark America’s 250th birthday</a></p>
                           <div class="w-[350px] h-[1px] bg-gray-300 mx-auto mt-1"></div>
                       </div>
                       <div class="text-center mb-4">
-                          <img src="imgs/news4.jpeg" alt="news-4" class="hidden md:block">
+                          <img src="imgs/news4.jpeg" alt="news-4" class="hidden lg:block">
                           <h3 class="uppercase text-sm " class="no-underline hover:underline">Arts, humaties, & social sciences</h3>
                           <p ><a href="#" class="no-underline hover:underline">A rare on-campus assignment for preservation students holds ‘small revelations’</a></p>
                           <div class="w-[350px] h-[1px] bg-gray-300 mx-auto mt-1"></div>
                       </div>
                       <div class="text-center mb-4">
-                          <img src="imgs/news5.jpeg" alt="news-5" class="hidden md:block">
+                          <img src="imgs/news5.jpeg" alt="news-5" class="hidden lg:block">
                           <h3 class="uppercase text-sm">Sciencse and technology</h3>
                           <p><a href="#" class="no-underline hover:underline">Vanesa Chan bridges innovation and the market</a></p>
                           <div class="w-[350px] h-[1px] bg-gray-300 mx-auto mt-1"></div>
@@ -89,30 +89,43 @@
               </div>
           </section>
           <section class="relative flex flex-col items-center"> <!--campus & community section-->
-              <div class="md:hidden">
-                  <img src="/imgs/pennMob.jpeg" alt="" class="h-100vh">
+              <div class="md:hidden  lg:block lg:w-full">
+                <img src="/imgs/pennMob.jpeg" alt="" class="h-100vh lg:h-[600px] lg:w-full object-cover">
               </div>
-              <div class="hidden md:block w-full">
+              <div class="hidden md:block w-full lg:h-[500px] lg:bg-green-300 lg:hidden">
                   <img src="/imgs/pennMob.jpeg" alt="" class=" w-full max-h-[340px] object-cover">
               </div>
-              <div class="relative -top-[150px]  p-3 bg-[#011F5B] text-white">
-                  <div class="border-solid min-w-200px sm:h-[360px] border-[#344C7C] sm:w-[560px] border-[1px] 
-                      border-gray-900 flex items-center flex-col px-24">
-                      <h3 class="text-[10px]">Campus & community</h3>
-                      <h2 class="text-[14px] font-bold">Penn Center for Innovation celebrates 10 years </h2>
-                      <p class="text-[10px] text-center">The University’s nexus for technology transfer supports researchers in their innovative efforts, 
+              <div class="relative -top-[150px]  p-3 bg-[#011F5B] text-white lg:top-16 lg:absolute lg:left-10">
+                  <div class="border-solid min-w-[200px] sm:h-[360px] border-[#344C7C] sm:w-[560px] border-[1px] 
+                      border-gray-900 flex items-center flex-col px-24 lg:p-2 lg:w-[460px] text-center">
+                      <h3 class="text-[10px] lg:text-lg">Campus & community</h3>
+                      <h2 class="text-[14px] lg:text-2xl font-bold ">Penn Center for Innovation celebrates 10 years </h2>
+                      <p class="text-[10px] text-center lg:text-lg p-3">The University’s nexus for technology transfer supports researchers in their innovative efforts, 
                       from CAR T to mRNA advancements that have dramatically reshaped the world.</p>
 
-                      <a href="#" class="rounded-[100px] border-[#344C7C] border-solid border-[1px] justify-center font-bold text-md uppercase w-36 h-10 text-center 
-                          no-underline flex items-center"> Learn more</a>
+                      <a href="#" class="rounded-[100px] border-[#344C7C] border-solid border-[1px] justify-center font-bold text-md 
+                          lg:text-[12px] uppercase w-36 h-10 text-center 
+                          no-underline flex items-center hover:text-[#990000] hover:bg-white "> Learn more</a>
                   </div>
               </div>
           </section>
-          <section> <!-- events section -->
+          <section class="mx-10"> <!-- events section -->
               <h1>Upcoming Events</h1>
-              <div>
-                  <div>
-
+              <div class="relative h-[320px] w-[360px]">
+                  <img src="/imgs/event1.jpeg" alt="event1" class="h-full w-full">
+                  <div class="absolute bottom-0 bg-white h-10 w-64 pt-3 ">
+                      <p class="uppercase text-[#011F5B] font-bold">talks</p>
+                      <div class="relative mb-5 -mt-5">
+                          <hr class="w-[20px] border-2 border-[#94A0B8] opacity-50 mt-2 absolute left-0 top-0">
+                      </div>
+                  </div>
+                  <div class="h-[70px] w-[60px] absolute top-5 right-5">
+                      <div class="bg-[#990000] uppercase w-full h-[30%] text-center text-white">
+                          <p>feb</p>
+                      </div>
+                      <div class=" w-full text-center bg-white h-[70%] pt-2">
+                          <p class="text-[#011F5B] font-bold text-2xl ">19</p>
+                      </div>
                   </div>
               </div>
 
@@ -133,7 +146,7 @@
                   <div>
                       <img src="/imgs/connected1.jpeg" alt="img-connected1" class="h-[300px] md:h-[380px] w-full object-cover">
                   </div>
-                  <div class="text-[10px] md:text-[14px] border-solid border-[1px] border-gray-900 h-[300px] md:h-[380px] bg-[#011F5B] text-white pt-20 text-left px-4">
+                  <div class="text-[10px] lg:text-[14px] border-solid border-[1px] border-gray-900 h-[300px] md:h-[380px] bg-[#011F5B] text-white pt-20 text-left px-4">
                       <p>Scott Hensley of Penn Medicine says, “The worst thing we can do is be 
                       flat-footed and unprepared, because this virus does represent a true pandemic risk.”
                       Faculty members from 
