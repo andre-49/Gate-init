@@ -652,8 +652,16 @@ video {
   display: block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -712,6 +720,30 @@ video {
   height: 2.5rem;
 }
 
+.h-\[360px\] {
+  height: 360px;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[280px\] {
+  height: 280px;
+}
+
 .min-h-40 {
   min-height: 10rem;
 }
@@ -722,6 +754,10 @@ video {
 
 .min-h-\[360px\] {
   min-height: 360px;
+}
+
+.min-h-\[280px\] {
+  min-height: 280px;
 }
 
 .w-12 {
@@ -748,8 +784,28 @@ video {
   width: 9rem;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .min-w-\[560px\] {
   min-width: 560px;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -770,6 +826,10 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-\[4px\] {
+  gap: 4px;
 }
 
 .self-center {
@@ -845,12 +905,22 @@ video {
   background-color: rgb(0 135 108 / var(--tw-bg-opacity, 1));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\.\/imgs\/pennMob\.jpeg\)\] {
   background-image: url(./imgs/pennMob.jpeg);
 }
 
 .bg-\[url\(\/imgs\/pennMob\.jpeg\)\] {
   background-image: url(/imgs/pennMob.jpeg);
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-5 {
@@ -863,6 +933,14 @@ video {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .text-center {
@@ -902,6 +980,11 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .no-underline {
@@ -957,6 +1040,26 @@ video {
   .sm\:hidden {
     display: none;
   }
+
+  .sm\:h-\[360px\] {
+    height: 360px;
+  }
+
+  .sm\:max-h-\[360px\] {
+    max-height: 360px;
+  }
+
+  .sm\:w-\[560px\] {
+    width: 560px;
+  }
+
+  .sm\:min-w-\[560px\] {
+    min-width: 560px;
+  }
+
+  .sm\:max-w-\[560px\] {
+    max-width: 560px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -966,5 +1069,13 @@ video {
 
   .md\:inline-block {
     display: inline-block;
+  }
+
+  .md\:h-\[350px\] {
+    height: 350px;
+  }
+
+  .md\:min-h-\[350px\] {
+    min-height: 350px;
   }
 }
