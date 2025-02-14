@@ -8,28 +8,27 @@
     <link href="https://www.nerdfonts.com/assets/css/combo.css" rel="stylesheet" type="text/css"> <!-- icon font -->
   </head>
   <body class="relative">
-      <section class=" min-h-40 bg-[#011F5B] text-white flex p-2 justify-center items-center h-40"><!--  announcement section -->
-          <div class="border-solid border-2 border-[#344C7C]  flex flex-col justify-center items-center h-full w-full">
-              <div class="">
-                  <a class="underline hover:no-underline text-lg">
-                      On Friday, February 14, 2025 the  University will suspend normal operations for the Eagles victory parade
-                  </a>
-                  <p class="mt-2">Normal operations will resume Monday, February 17, 2025</p>
-              </div>
-          </div>
-      </section>
+      <!-- <section class=" min-h-40 bg-[#011F5B] text-white flex p-2 justify-center items-center h-40">announcement section -->
+      <!--     <div class="border-solid border-2 border-[#344C7C]  flex flex-col justify-center items-center h-full w-full"> -->
+      <!--         <div class=""> -->
+      <!--             <a class="underline hover:no-underline text-lg"> -->
+      <!--                 On Friday, February 14, 2025 the  University will suspend normal operations for the Eagles victory parade -->
+      <!--             </a> -->
+      <!--             <p class="mt-2">Normal operations will resume Monday, February 17, 2025</p> -->
+      <!--         </div> -->
+      <!--     </div> -->
+      <!-- </section> -->
 
       <header class="relative h-[500px]">
-
           <img class="h-full w-full object-cover brightness-50" src="/imgs/banner.jpeg" alt="bg">
           <section class=" absolute top-0 w-full h-full">
-              <div class="flex justify-between h-[40px] p-10 bg-white items-center ">
+              <div class=" flex justify-between h-[40px] p-10 bg-white items-center ">
 
                   <span class="nf nf-seti-search text-2xl text-[#011F5B]"></span>
                   <span><img src="/imgs/logoMob.svg" alt="" class="h-10"></span>
                   <span class="nf nf-md-menu text-2xl text-[#011F5B]"></span>
               </div>
-              <div class="text-white mx-5 mt-32">
+              <div class="text-white mx-5 mt-32 max-w-[580px]">
                   <p class="font-bold text-md uppercase">Health Sciences </p>
                   <h2>How Penn is helping with bird flu research and disease surveillance </h2>
                   <p>Faculty are working on a new vaccine for the H5N1 virus, studying its transmission, 
@@ -38,15 +37,15 @@
 
           </section>
       </header>
-      <main>
-          <section class="mx-3"> <!-- news section -->
+      <main class="my-20">
+          <section class="mx-3 md:px-20"> <!-- news section -->
 
-              <div>
+              <div class="flex justify-between text-[#011F5B]">
                   <h1 class="hidden sm:inline">News</h1>
                   <p class="flex gap-10 items-center"><span>Topics</span> <span class="nf nf-md-menu_down"></span></p>
                   <h1 class="sm:hidden">News</h1>
               </div>
-              <div>
+              <div class="md:grid grid-cols-2">
                   <div class="border-solid border-b-[1px] border-gray-200 text-center">
                       <img src="./imgs/news1.jpeg" alt="news-1" class="aspect-video">
                       <h3 class="uppercase text-sm">Health sciences</h3>
@@ -55,7 +54,7 @@
                       <!-- <span class="relative text-xl font-bold after:content-[''] after:block after:w-12  -->
                       <!-- after:h-1 after:bg-blue-500 after:mt-1 after:mx-auto"> </span> -->
                   </div>
-                  <div >
+                  <div class="md:grid grid-cols-2 grid-rows-2">
                       <div class="text-center mb-4">
                           <img src="./imgs/news2.jpeg" alt="news-2" class="hidden md:block">
                           <h3 class="uppercase text-sm">Health sciences</h3>
@@ -86,22 +85,32 @@
               </div>
           </section>
           <section class="relative flex flex-col items-center"> <!--campus & community section-->
-              <div class="">
+              <div class="md:hidden">
                   <img src="/imgs/pennMob.jpeg" alt="" class="h-100vh">
               </div>
-              <div class="relative -top-[150px]  p-3 ">
-                  <div class="border-solid min-w-200px sm:h-[360px] sm:w-[560px] border-[1px] border-gray-900">
-                      <h3>Campus & community</h3>
-                      <h2>Penn Center for Innovation celebrates 10 years </h2>
-                      <p>The University’s nexus for technology transfer supports researchers in their innovative efforts, 
+              <div class="hidden md:block w-full">
+                  <img src="/imgs/pennMob.jpeg" alt="" class=" w-full max-h-[340px] object-cover">
+              </div>
+              <div class="relative -top-[150px]  p-3 bg-[#011F5B] text-white">
+                  <div class="border-solid min-w-200px sm:h-[360px] border-[#344C7C] sm:w-[560px] border-[1px] 
+                      border-gray-900 flex items-center flex-col px-24">
+                      <h3 class="text-[10px]">Campus & community</h3>
+                      <h2 class="text-[14px] font-bold">Penn Center for Innovation celebrates 10 years </h2>
+                      <p class="text-[10px] text-center">The University’s nexus for technology transfer supports researchers in their innovative efforts, 
                       from CAR T to mRNA advancements that have dramatically reshaped the world.</p>
 
-                      <a href="#" class="rounded-[100px] border-solid border-[1px] justify-center font-bold text-md uppercase w-36 h-10 text-center 
+                      <a href="#" class="rounded-[100px] border-[#344C7C] border-solid border-[1px] justify-center font-bold text-md uppercase w-36 h-10 text-center 
                           no-underline flex items-center"> Learn more</a>
                   </div>
               </div>
           </section>
           <section> <!-- events section -->
+              <h1>Upcoming Events</h1>
+              <div>
+                  <div>
+
+                  </div>
+              </div>
 
           </section>
           <section> <!-- support section -->
@@ -130,8 +139,8 @@
           </section>
       </main>
       <footer>
-          <section> <!-- statement section -->
-              <h2>Equal Opportunity and Nondiscrimination at Penn</h2>
+          <section class="min-h-[500px] bg-[#011F5B] text-white px-8 text-center pt-10 flex flex-col items-center"> <!-- statement section -->
+              <h2 class="text-2xl">Equal Opportunity and Nondiscrimination at Penn</h2>
               <p>
               The University of Pennsylvania values diversity and seeks talented students, 
               faculty and staff with diverse backgrounds, experiences, and perspectives. 
@@ -145,59 +154,67 @@
               Opportunity Programs, Franklin Building, 3451 Walnut Street, Suite 421, Philadelphia, 
               PA 19104-6106; or (215) 898-6993 (Voice).
               </p>
-              <a href="#" class="rounded-[100px] border-solid border-[1px] p-10 justify-center font-bold text-md uppercase w-36 h-10 text-center 
-                  no-underline flex items-center"> Nondiscrimination statement</a>
+              <a href="#" class="mt-10 hover:bg-white hover:text-[#011F5B] rounded-[100px] border-[#344C7C] border-solid border-[1px] px-36 py-[40px] 
+                  justify-center font-bold text-md uppercase w-36 h-10 text-center 
+                  no-underline flex items-center text-nowrap">Nondiscrimination statement</a>
           </section>
-          <section class="relative"> <!-- footer -->
-              <div>
-                  <img src="" alt="">
+          <section class="relative h-[550px] text-white "> <!-- footer -->
+              <div class="h-full">
+                  <img src="/imgs/footer-16.png" alt="footer-img" class="h-full">
               </div>
-              <div class="absolute">
-                  <div>
+              <div class="absolute top-0 h-full bg-[rgba(7,10,110,0.65)] w-full">
+                  <div class="md:grid grid-cols-3 md:mb-10 px-10 pt-5">
                       <div>
                           <div>
-                              <img src="/imgs/logoW.svg" alt="">
+                              <img src="/imgs/logoW.svg" alt="" class="h-16">
                           </div>
                           <p>Philadelphia, PA 19104</p>
                           <p>Telephone: (215) 898-5000</p>
-                          <div>
-                              <a href="#" class="block uppercase no-underline hover:underline">Contact Us</a>
-                              <a href="#" class="block uppercase no-underline hover:underline">Maps</a>
-                              <a href="#" class="block uppercase no-underline hover:underline">Parking</a>
+                          <div class="mt-10">
+                              <a href="#" class="block uppercase mt-3 no-underline hover:underline">Contact Us</a>
+                              <a href="#" class="block uppercase mt-3 no-underline hover:underline">Maps</a>
+                              <a href="#" class="block uppercase mt-3 no-underline hover:underline">Parking</a>
                           </div>
                       </div>
                       <div>
                           <h3>Navigate</h3>
-                          <a href="#" class="block uppercase no-underline hover:underline">Alumni</a>
-                          <a href="#" class="block uppercase no-underline hover:underline">Athletics</a>
-                          <a href="#" class="block uppercase no-underline hover:underline">Diversity</a>
-                          <a href="#" class="block uppercase no-underline hover:underline">Health care</a>
-                          <a href="#" class="block uppercase no-underline hover:underline">Libraries</a>
-                          <a href="#" class="block uppercase no-underline hover:underline">Online learning</a>
-                          <a href="#" class="block uppercase no-underline hover:underline">Penn global</a>
+                          <div class="mt-10">
+                              <a href="#" class="block uppercase pt-3 no-underline hover:underline">Alumni</a>
+                              <a href="#" class="block uppercase pt-3 no-underline hover:underline">Athletics</a>
+                              <a href="#" class="block uppercase pt-3 no-underline hover:underline">Diversity</a>
+                              <a href="#" class="block uppercase pt-3 no-underline hover:underline">Health care</a>
+                              <a href="#" class="block uppercase pt-3 no-underline hover:underline">Libraries</a>
+                              <a href="#" class="block uppercase pt-3 no-underline hover:underline">Online learning</a>
+                              <a href="#" class="block uppercase pt-3 no-underline hover:underline">Penn global</a>
+                          </div>
                       </div>
                       <div>
                           <h3>Penn's Heritage</h3>
-                          <p>
+                          <p class="italic">
                           As America’s first university, Penn has a history that dates back to 1740 
                           and shares many ties with the colonial city of Philadelphia and the birth of our nation.
                           </p>
-                          <a href="#" class="rounded-[100px] border-solid border-[1px] justify-center font-bold text-md uppercase w-36 h-10 text-center 
-                              no-underline flex items-center">Our history</a>
+                          <a href="#" class="rounded-[100px] border-solid border-[1px] justify-center font-bold text-md uppercase 
+                              w-36 h-10 text-center no-underline flex items-center py-10 px-32 text-nowrap hover:bg-white 
+                              hover:text-[#011F5B] border-gray-500">Our history</a>
                       </div>
                   </div>
-                  <div>
-                      <div>
+                  <div class="md:grid grid-cols-2 pl-5 pr-20">
+                      <div class="order-2 flex w-full mx-auto flex-wrap justify-center space-x-6 text-xs uppercase tracking-widest">
                           <a href="#" class="block uppercase no-underline hover:underline">Disclaimer</a>
+                          <span class="hidden sm:inline">|</span>
                           <a href="#" class="block uppercase no-underline hover:underline">Emergency services</a>
+                          <span class="hidden sm:inline">|</span>
                           <a href="#" class="block uppercase no-underline hover:underline">Nondiscrimination</a>
+                          <span class="hidden sm:inline">|</span>
                           <a href="#" class="block uppercase no-underline hover:underline">Privacy policy</a>
                           <a href="#" class="block uppercase no-underline hover:underline">Report Accessibility issues and get help</a>
+                          <span class="hidden sm:inline">|</span>
                           <a href="#" class="block uppercase no-underline hover:underline">Report copyright infringment</a>
                       </div>
-                      <div >
-                          <span class="flex items-center"><a href="#" class=" border-solid border-[1px] justify-center font-bold text-md uppercase w-16 h-16 text-center 
-                                  no-underline flex items-center bg-blue-100"><img src="imgs/upAr.svg" alt=""></a>Back to top</span>
+                      <div class=" ">
+                          <span class="flex items-center uppercase"><a href="#" class=" border-solid border-[1px] justify-center font-bold text-md uppercase w-16 h-16 text-center 
+                                  no-underline flex items-center mr-2 hover:bg-[rgba(7,10,130,0.25)]"><img src="imgs/upAr.svg" alt=""></a>Back to top</span>
                       </div>
                   </div>
 
