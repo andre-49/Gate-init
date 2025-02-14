@@ -602,6 +602,14 @@ video {
   top: -150px;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -646,6 +654,14 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .block {
@@ -744,6 +760,10 @@ video {
   height: 280px;
 }
 
+.h-\[40px\] {
+  height: 40px;
+}
+
 .min-h-40 {
   min-height: 10rem;
 }
@@ -832,6 +852,10 @@ video {
   gap: 4px;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .self-center {
   align-self: center;
 }
@@ -875,6 +899,11 @@ video {
   border-color: rgb(17 24 39 / var(--tw-border-opacity, 1));
 }
 
+.border-\[\#344C7C\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(52 76 124 / var(--tw-border-opacity, 1));
+}
+
 .bg-blue-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
@@ -908,6 +937,11 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#011F5B\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 31 91 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\.\/imgs\/pennMob\.jpeg\)\] {
@@ -974,6 +1008,11 @@ video {
   font-size: 11px;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -985,6 +1024,15 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .no-underline {
@@ -1030,6 +1078,10 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
 }
 
 @media (min-width: 640px) {
