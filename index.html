@@ -22,7 +22,32 @@
       <header class="relative h-[500px]">
           <img class="h-full w-full object-cover brightness-50" src="/imgs/banner.jpeg" alt="bg">
           <section class=" absolute top-0 w-full h-full">
-              <div class=" flex justify-between h-[40px] p-10 bg-white items-center ">
+              <!-- desktop navbar -->
+              <div class="hidden lg:block bg-white h-[140px] p-4">
+                  <div class="flex justify-between border-solid border-b-[1px] pb-2 border-b-gray-300">
+                      <div>
+
+                          <span><img src="/imgs/logoMob.svg" alt="" class="h-16"></span>
+                      </div>
+                      <div class="flex gap-5 items-center">
+                          <span class="nf nf-seti-search text-xl text-[#011F5B]"></span>
+                          <a href="#" class="no-underline text-[#011F5B] text-xl"> Resources <span class="nf nf-cod-chevron_down "></span></a>
+                          <a href="#" class="bg-[#990000] text-white justify-center font-bold text-md uppercase w-32 h-16 text-center 
+                              no-underline flex items-center mr-2 hover:bg-[rgb(115,0,0)] text-nowrap">Give to penn</a>
+                      </div>
+                  </div>
+                  <div class="pt-2">
+                          <a href="#" class="no-underline text-[#011F5B] text-xl"> Academics <span class="nf nf-cod-chevron_down "></span></a>
+                          <span class="text-gray-400">/</span>
+                          <a href="#" class="no-underline text-[#011F5B] text-xl"> Resources <span class="nf nf-cod-chevron_down "></span></a>
+                          <a href="#" class="no-underline text-[#011F5B] text-xl"> Resources <span class="nf nf-cod-chevron_down "></span></a>
+                          <a href="#" class="no-underline text-[#011F5B] text-xl"> Resources <span class="nf nf-cod-chevron_down "></span></a>
+
+                  </div>
+
+              </div>
+              <!-- mobile navbar -->
+              <div class="lg:hidden flex justify-between h-[40px] p-10 bg-white items-center ">
 
                   <span class="nf nf-seti-search text-2xl text-[#011F5B]"></span>
                   <span><img src="/imgs/logoMob.svg" alt="" class="h-10"></span>
@@ -90,7 +115,7 @@
           </section>
           <section class="relative flex flex-col items-center"> <!--campus & community section-->
               <div class="md:hidden  lg:block lg:w-full">
-                <img src="/imgs/pennMob.jpeg" alt="" class="h-100vh lg:h-[600px] lg:w-full object-cover">
+                  <img src="/imgs/pennMob.jpeg" alt="" class="h-100vh lg:h-[600px] lg:w-full object-cover">
               </div>
               <div class="hidden md:block w-full lg:h-[500px] lg:bg-green-300 lg:hidden">
                   <img src="/imgs/pennMob.jpeg" alt="" class=" w-full max-h-[340px] object-cover">
@@ -169,7 +194,21 @@
               </div>
 
           </section>
-          <section> <!-- support section -->
+          <section class="m-10"> <!-- support section -->
+              <div class="relative   p-3 bg-[#011F5B] text-white lg:w-[490px]">
+                  <div class="border-solid min-w-[200px] sm:h-[360px] border-[#344C7C] sm:w-[560px] border-[1px] 
+                      border-gray-900 flex items-center flex-col px-24 lg:p-2 lg:w-[460px] text-center">
+                      <h3 class="text-[10px] lg:text-lg">Campus & community</h3>
+                      <h2 class="text-[14px] lg:text-2xl font-bold ">Penn Center for Innovation celebrates 10 years </h2>
+                      <p class="text-[10px] text-center lg:text-lg p-3">The University’s nexus for technology transfer supports researchers in their innovative efforts, 
+                      from CAR T to mRNA advancements that have dramatically reshaped the world.</p>
+
+                      <a href="#" class="rounded-[100px] border-[#344C7C] border-solid border-[1px] justify-center font-bold text-md 
+                          lg:text-[12px] uppercase w-36 h-10 text-center 
+                          no-underline flex items-center hover:text-[#990000] hover:bg-white "> Learn more</a>
+                  </div>
+              </div>
+
 
           </section>
           <section> <!-- carousel -->
