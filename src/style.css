@@ -909,6 +909,22 @@ video {
   height: 1100px;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
 .max-h-\[20px\] {
   max-height: 20px;
 }
@@ -1149,6 +1165,11 @@ video {
 .border-\[\#94A0B8\] {
   --tw-border-opacity: 1;
   border-color: rgb(148 160 184 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\#F7F7F7\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(247 247 247 / var(--tw-border-opacity, 1));
 }
 
 .bg-blue-100 {
