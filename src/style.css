@@ -562,6 +562,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -586,6 +590,10 @@ video {
   height: 10rem;
 }
 
+.min-h-40 {
+  min-height: 10rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -596,6 +604,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .self-center {
@@ -631,4 +643,18 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+@media (min-width: 640px) {
+  .sm\:inline {
+    display: inline;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
 }
